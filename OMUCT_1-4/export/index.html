@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>OMUCT_1-4_Project_info</title>
+
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="http://localhost:53306/libs/reveal.js/4.1.3/reset.css">
+	<link rel="stylesheet" href="http://localhost:53306/libs/reveal.js/4.1.3/reveal.css">
+
+	
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	  <!-- highlight Theme -->
+  	
+	  <link rel="stylesheet" href="http://localhost:53306/libs/highlight.js/11.3.1/styles/monokai.min.css">
+	
+	
+		
+	<link rel="stylesheet" href="http://localhost:53306/libs/reveal.js/4.1.3/plugin/chalkboard/style.css">
+	
+	
+	
+		<link rel="stylesheet" href="http://localhost:53306/libs/reveal.js/4.1.3/plugin/customcontrols/style.css">
+	
+	<link rel="stylesheet" href="http://localhost:53306/libs/styles/tasklist.css">
+
+
+
+  <!-- Revealjs Theme -->
+  
+  	<link rel="stylesheet" href="http://localhost:53306/libs/reveal.js/4.1.3/theme/white.css" id="theme">
+  
+  
+
+
+  <!-- Revealjs Theme -->
+  
+
+ 
+</head>
+
+<body>
+  
+
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <!-- ---
+marp: true;
+--- -->
+<!-- headingDivider: 3 -->
+<style>
+    h2{
+        border-bottom: 2px dashed;
+    }
+    h3{
+        border-bottom: 1px dashed;
+    }
+</style>
+<h1>OMUCT_1-4_Timetableプロジェクトに参加してくれる方へ</h1>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>目次</h2>
+<ul>
+<li>本プロジェクトの沿革および趣旨</li>
+<li>本プロジェクト参加にあたって必要なもの</li>
+<li>本プロジェクトを通して身につけることができること</li>
+<li>本プロジェクトの方針</li>
+<li>今後の予定</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>本プロジェクトの沿革および趣旨</h2>
+<p>本プロジェクトは、代表･谷口陽音（大阪公立大学工業高等専門学校1年4組副総代）がクラスメンバーへの予定や課題などのリマインドを目的としてMarkdownをGitHub Pagesで公開するところから始まったものである。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>本プロジェクトの沿革および趣旨</h3>
+<p>現在でも趣旨は変わらず、クラスメンバーへの予定や課題等のリマインドを目的としている。<br>
+ただし、Markdownは現在は使っておらず、完全にHTMLに移行している。しかし、HTMLの編集は何かと時間がかかるものであり、学友会執行部もやっている代表者1名だとげんかいがあると判断した。</p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>本プロジェクトの沿革および趣旨</h3>
+<p>そこで、クラスの有志の人で運営しようと考えた。<br>
+それにより、よりスピーディーな更新をできるようになることが容易に予測される。私はこれにより、クラスメンバー全員が気軽に最新情報にアクセスできることを目指している。</p>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>本プロジェクトの参加にあたり必要なもの</h2>
+<ul>
+<li>PC
+以上である。今回はWeb関係であるため、PC1台で完結させることが可能である。なお、以下のアカウントは後々必要になるため取得しておくことを強く推奨する。</li>
+<li>GitHub</li>
+<li>Slack</li>
+<li>Microsoft Visual Studio(必須ではないが、あったほうがよい)</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>本プロジェクトの参加にあたり必要なもの</h3>
+<p>また、以下のアプリも後々使用するため、インストールしておくことを強く推奨する。</p>
+<ul>
+<li>Microsoft Visual Studio Code</li>
+<li>git Windows</li>
+<li>GitHub Desktop
+なお、Microsoft Visual Studio Codeについては、別のエディターでも構わない。</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>本プロジェクトの参加で身につくもの</h2>
+<ul>
+<li>HTMLの知識（基礎）</li>
+<li>Gitの使い方（最低限）</li>
+<li>Markdown記法（常用できるくらい）</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>本プロジェクトの方針</h2>
+<ul>
+<li>原則代表者が機能の実装等を行い、参加者はHTMLの表示文字列の内容およびCSSをいじるだけでそれっぽい感じになるようにする。</li>
+<li>原則GitHubのDevelopmentブランチをメインで使うブランチとする。GitHub PagesはMasterブランチから反映されるため、すぐには反映されないが、代表者がチェックした上でマージを行い、反映する。</li>
+<li>最終的にはだれでも書き込めるようにする</li>
+</ul>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>今後の予定</h2>
+<ul>
+<li>6月
+<ul>
+<li>とりあえずHTMLとCSSをかけるようになってもらう</li>
+<li>Git基礎</li>
+<li>Markdown基礎</li>
+</ul>
+</li>
+<li>7月
+<ul>
+<li>代表者:DBサーバー立ち上げ</li>
+<li>代表者:バックエンド開発</li>
+<li>クイズページ完成</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>今後の予定</h3>
+<ul>
+<li>8月
+<ul>
+<li>代表者主宰:WebページをGitHub Pages→サーバーへ移行</li>
+<li>JavaScript基礎</li>
+</ul>
+</li>
+<li>9月
+<ul>
+<li>Webページ以降完了</li>
+<li>代表者:登録フォーム作成</li>
+</ul>
+</li>
+<li>10月
+<ul>
+<li>代表者:フォーム完成</li>
+<li>フォーム実運用</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>参考:代表者の編集環境</h2>
+<ul>
+<li>エディター
+<ul>
+<li>Visual Studio Code</li>
+<li>Sublime Text</li>
+<li>WebStorm</li>
+<li>RubyMine</li>
+<li>IntelliJ IDEA Ulitmet</li>
+<li>DataGrip</li>
+<li>CLion</li>
+<li>Rider</li>
+<li>Microsoft Visual Studio</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>参考:代表者の編集環境</h3>
+<ul>
+<li>Git
+<ul>
+<li>Git Bash</li>
+<li>Git GUI</li>
+<li>GitHub Desktop</li>
+<li>GitKraken</li>
+<li>SourceTree</li>
+<li>Sublime Marge</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>参考:代表者の編集環境</h3>
+<ul>
+<li>利用言語
+<ul>
+<li>Markdown(この文書はMarkdownで作成)</li>
+<li>HTML/CSS</li>
+<li>JavaScript</li>
+<li>Java</li>
+<li>Ruby/Ruby on Rails</li>
+<li>Latex</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>参考:代表者の編集環境</h3>
+<ul>
+<li>Web(フロントエンド)用ツール+Markdown
+<ul>
+<li>VSCode
+<ul>
+<li>Auto Commit Message</li>
+<li>Azure Repos</li>
+<li>Foam</li>
+<li>GitHub Codespase</li>
+<li>GitHub Repositories</li>
+<li>GitRens</li>
+<li>Japanese language Pack</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  	
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/reveal.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/zoom/zoom.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/notes/notes.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/search/search.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/markdown/markdown.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/highlight/highlight.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/menu/menu.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/math/math.js"></script>
+
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/fullscreen/plugin.js"></script>
+  
+  	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/animate/plugin.js"></script>
+  	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/animate/svg.min.js"></script>
+  
+  	 <!--	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/anything/plugin.js"></script> -->
+
+ <!--	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/chalkboard/plugin.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/customcontrols/plugin.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/embed-tweet/plugin.js"></script>
+
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/chart/chart.min.js"></script>
+	<script src="http://localhost:53306/libs/reveal.js/4.1.3/plugin/chart/plugin.js"></script>
+
+  <script>
+
+		const printPlugins = [
+			RevealNotes, 
+			RevealHighlight,
+			RevealMath,
+			RevealAnimate,
+			RevealChalkboard,
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+				RevealZoom, 
+				RevealSearch, 
+				RevealMarkdown, 
+				RevealHighlight,
+				RevealMenu, 
+				RevealFullscreen,
+				//RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				RevealCustomControls, 
+				// poll
+				// question
+				// seminar
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+			controlsTutorial: true,
+			controlsLayout: 'bottom-right',
+			controlsBackArrows: 'faded',
+			progress: true,
+			slideNumber: true,
+			//#showSlideNumber "all" "print" "speaker"
+			hash: true,//#  hash: false,
+			//# respondToHashChanges: true,
+			//# history: false,
+			keyboard: true,
+			//#keyboardCondition: null,
+			overview: true,
+			center: true,
+			touch: true,
+			loop: false,
+			rtl: false,
+			//#navigationMode: 'default', linear grid
+			shuffle: false,
+			fragments: true,
+			fragmentInURL: false,
+			embedded: false,
+			help: true,
+			//#pause: true
+			showNotes: false,
+			autoPlayMedia: false, // TODO fix this to a nullable value
+			//#preloadIframes: null. true false
+			//#autoAnimate: true
+			//#autoAnimateMatcher: null,
+			//#autoAnimateEasing: 'ease',
+			//autoAnimateDuration: 1.0,
+			//#autoAnimateUnmatched: true
+			//#autoAnimateStyles: []
+			autoSlide: 0, // TODO fix this to a falseable value
+			autoSlideStoppable: true,
+			autoSlideMethod: '0',
+			defaultTiming: 120,
+			mouseWheel: false,
+			//#previewLinks: false
+			//#postMessage: true,  // TODO : this can cause issues with the vscode api ???
+			//#postMessageEvents: false,
+			//#focusBodyOnPageVisibilityChange: true,
+			transition: 'default',
+			transitionSpeed: 'default',
+			backgroundTransition: 'default',
+			//#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+			//#pdfSeparateFragments: true,
+			//#pdfPageHeightOffset: -1,
+			viewDistance: 3,
+			//#mobileViewDistance: 2,
+			display: 'block',
+			//#hideInactiveCursor: true,
+			//#hideCursorTime: 5000
+
+			// Parallax Background
+			parallaxBackgroundImage: '',
+			parallaxBackgroundSize: '',
+			parallaxBackgroundHorizontal: 0,
+			parallaxBackgroundVertical: 0,
+			
+			//Presentation Size
+			//#width: 960,
+			//#height: 700,
+			//#margin: 0.04,
+			//#minScale: 0.2,
+			//#maxScale: 2.0
+			//#disableLayout: false
+
+			audio: {
+				prefix: 'audio/', 	// audio files are stored in the "audio" folder
+				suffix: '.ogg',		// audio files have the ".ogg" ending
+				textToSpeechURL: null,  // the URL to the text to speech converter
+				defaultNotes: false, 	// use slide notes as default for the text to speech converter
+				defaultText: false, 	// use slide text as default for the text to speech converter
+				advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+				autoplay: false,	// automatically start slideshow
+				defaultDuration: 5,	// default duration in seconds if no audio is available
+				defaultAudios: true,	// try to play audios with names such as audio/1.2.ogg
+				playerOpacity: 0.05,	// opacity value of audio player if unfocused
+				playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+				startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+			},
+			chalkboard: { // font-awesome.min.css must be available
+					//src: "chalkboard/chalkboard.json",
+					storage: "chalkboard-demo",
+					colorButtons: 5
+				},
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						},
+						{ icon: '<i class="fa fa-pen-square"></i>',
+						  title: 'Toggle chalkboard (B)',
+						  action: 'RevealChalkboard.toggleChalkboard();'
+						},
+						{ icon: '<i class="fa fa-pen"></i>',
+						  title: 'Toggle notes canvas (C)',
+						  action: 'RevealChalkboard.toggleNotesCanvas();'
+						}
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+		
+
+	</script>
+
+</body>
+
+</html>
