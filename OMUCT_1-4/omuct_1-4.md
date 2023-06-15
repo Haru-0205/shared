@@ -1,9 +1,3 @@
-<!-- ---
-marp: true;
---- -->
-
-
-<!-- headingDivider: 3 -->
 ---
 slideNumber: true
 theme: white
@@ -36,13 +30,13 @@ title: OMUCT_1-4_Project_info
 ## 本プロジェクトの沿革および趣旨
 本プロジェクトは、代表･谷口陽音（大阪公立大学工業高等専門学校1年4組副総代）がクラスメンバーへの予定や課題などのリマインドを目的としてMarkdownをGitHub Pagesで公開するところから始まったものである。  
 
----
+--
 
 ### 本プロジェクトの沿革および趣旨
 現在でも趣旨は変わらず、クラスメンバーへの予定や課題等のリマインドを目的としている。  
 ただし、Markdownは現在は使っておらず、完全にHTMLに移行している。しかし、HTMLの編集は何かと時間がかかるものであり、学友会執行部もやっている代表者1名だとげんかいがあると判断した。
 
----
+--
 
 ### 本プロジェクトの沿革および趣旨
 そこで、クラスの有志の人で運営しようと考えた。  
@@ -64,7 +58,45 @@ title: OMUCT_1-4_Project_info
 - Microsoft Visual Studio Code
 - git Windows
 - GitHub Desktop
-  なお、Microsoft Visual Studio Codeについては、別のエディターでも構わない。
+
+--
+
+- TeamViewer QuickSupport
+- Jetbrains IntelliJ IDEA Community
+- Jetbrains PyCharm Community
+- Slack
+
+--
+
+- Notion
+- ~~Figma~~
+- ~~Inkscape~~
+
+---
+
+### 本プロジェクトで使用するツール
+- Jetbrains YouTrack(プロジェクト管理･ナレッジベース)
+- Slack(コラボレーション)
+- Sisco Webex(Web会議ツール)
+
+--
+
+- Notion(ナレッジベース)
+- Figma(UI設計)
+- Inkscape(ロゴマーク作成等)
+
+--
+
+- Jetbrains Code with me(共同編集)
+- Jetbrains IntelliJ IDEA Community/Ultimet
+- Jetbrains PyCharm Community/Proffessional
+- Jetbrains WebStorm
+
+--
+
+- Microsoft LIve Share(共同編集)
+- Microsoft Visual Studio Code
+- TeamViewer(遠隔サポート)
 
 ---
 

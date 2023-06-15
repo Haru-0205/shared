@@ -1,47 +1,44 @@
 ---
-slideNumber: true
-theme: white
-title: gakuyukai-shikko-info
+theme: seriph
+background: https://source.unsplash.com/collection/94734566/1920x1080
+class: text-center
+highlighter: shiki
+lineNumbers: false
+info: |
+  ## Slidev Starter Template
+  Presentation slides for developers.
+
+  Learn more at [Sli.dev](https://sli.dev)
+drawings:
+  persist: false
+transition: slide-left
+title: Gakuyukai-shikkou-info
 ---
 
-<style>
-    h1{
-      border-bottom: 5px double;
-    }
-    h2{
-        border-bottom: 1px dashed;
-    }
-    h3{
-      border-bottom: 1px dotted;
-    }
-    
-</style>
-# 学友会　課紹介
-Spaceまたは→で次のスライドへ  
-スマホ等の場合は画面左下の>アイコンをタップ
+学友会執行部　課紹介
+
+<div class="pt-12">
+  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+    Press Space for next page <carbon:arrow-right class="inline"/>
+  </span>
+</div>
+
+<div class="abs-br m-6 flex gap-2">
+  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
+    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
+</div>
+
+<!--
+The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+-->
+
 ---
-
-## 操作方法
-
-| 操作 | キー |
-| --- | --- |
-| 次のスライドへ | Space |
-| 次の課へ | → |
-| (その課の)次のページへ | ↓ |
-| 前のスライドへ | Shift+Space |
-| 前の課へ | ← |
-| 前のページへ | ↑ |
-
-\* タッチ操作は矢印に対応するマークをタップ
-
---
-
-## 機能
-左下のアイコン群について  
-- 1番左:目次の表示
-- 2番目:スライド一覧表示
-- 3番目:画面の暗転（ブラックボード）  
-- 1番右:スライドへの注釈（書き込み）
+transition: fade-out
 ---
 
 ## 音響課
@@ -55,7 +52,7 @@ Spaceまたは→で次のスライドへ
 - 忙しい時期
   - 高専祭の時期
 
---
+---
 
 ### 音響課
 -  先輩が楽しかったこと
@@ -78,7 +75,7 @@ Spaceまたは→で次のスライドへ
   - 作業用の靴を準備すべき
   - 服は工務課所有のものがある
 
---
+---
 
 ### 工務課
 - 質疑応答
@@ -113,7 +110,7 @@ Spaceまたは→で次のスライドへ
     - 毒見（もちろんお金は払う）
     - 監視
 
---
+---
 
 ### 総務課　食品バザー係
 - 質疑応答
@@ -136,7 +133,7 @@ Spaceまたは→で次のスライドへ
   - 高専祭の直前だけ忙しい
   - 学内と学外の交渉
 
---
+---
 
 ### 渉外課
 
@@ -148,7 +145,7 @@ Spaceまたは→で次のスライドへ
 | H18   | H16            |
 | H21   | H17            |
 
---
+---
 
 ### 渉外課
 
@@ -160,7 +157,7 @@ Spaceまたは→で次のスライドへ
 | H28後 | 執行委員長業務 |
 | H29   | 渉外課         |
 
---
+---
 
 ### 渉外課
 - 質疑応答
@@ -177,7 +174,7 @@ Spaceまたは→で次のスライドへ
     - ステージライトの点検（10月頭頃）
     - 動画をチェック（10月半ば頃）
 
---
+---
 
 ### 総務課　展示電気係
 - 仕事内容
@@ -187,7 +184,7 @@ Spaceまたは→で次のスライドへ
     - ステージの電気･ライトの配線
   - 反省会（12月頃）
 
---
+---
 
 ### 総務課　展示電気係
 - 質疑応答
@@ -206,7 +203,7 @@ Spaceまたは→で次のスライドへ
     - 電光掲示板設置（工務課と連携）
     - 特設サイト作成
 
---
+---
 
 ### 情報通信課
 - 仕事内容
@@ -215,7 +212,7 @@ Spaceまたは→で次のスライドへ
     - 特設サイト作成
   - PCの管理
 
---
+---
 
 ### 情報通信課
 - おすすめな人
@@ -226,7 +223,7 @@ Spaceまたは→で次のスライドへ
   - 世の中に出て余りあるPCスキルが身につく
   - 週1･2くらいで来れる人
 
---
+---
 
 ### 情報通信課
 - 質疑応答
@@ -253,7 +250,7 @@ Spaceまたは→で次のスライドへ
     - 簡単な色使いの知識
     - キーボード触れるくらいのPCスキル
 
---
+---
 
 ### 広報課
 - 備考
@@ -264,7 +261,7 @@ Spaceまたは→で次のスライドへ
     - 絵を描く事が好きな人（下手でも入れる）
     - 創作意欲がある人
 
---
+---
 
 ### 広報課
 - 質疑応答
@@ -285,7 +282,7 @@ Spaceまたは→で次のスライドへ
   - 書記局の掲示板
   - 年1回必ずOBが来て会計のチェック→縦には強い
 
---
+---
 
 ### 書記局
 - 質疑応答
@@ -294,13 +291,10 @@ Spaceまたは→で次のスライドへ
   - PCは?ーWordとExcelとPowerPointの基礎（Excelはすこししっかりやった方がいいかも）
   - 書記局はいくら持ってる?ー1000万は超えてる
 
---
+---
 
 ### 書記局
 - 質疑応答
   - 2年との会話は?ーあまり意識して話してない（記憶には残らないくらい）
   - 学生とのトラブルは?ー特にない
-  - 年間スケジュールは作らないのか?ーまたやる
-
----
-
+  - 年間スケジュールは作らないのか?ーまたや
